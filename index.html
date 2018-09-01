@@ -1,0 +1,24 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <title>Simple Password Meter</title>
+  <link rel="stylesheet" href="dist/simple-password-meter.min.css" />
+  <style>
+      .container {
+          position: relative;
+          width: auto;
+          float: left;
+      }
+  </style>
+</head>
+<body>
+    <div class="container">
+        <input id="password" type="password" />
+    </div>
+  <script src="dist/simple-password-meter.min.js"></script>
+  <script>
+      new password.meter(document.getElementById('password'))
+  </script>
+</body>
+</html>
