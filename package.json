@@ -1,6 +1,6 @@
 {
   "name": "simple-password-meter.js",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "An ultra-simple password meter written in pure JavaScript",
   "main": "dist/simple-password-meter.js",
   "scripts": {
