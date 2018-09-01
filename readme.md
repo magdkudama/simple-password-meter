@@ -16,6 +16,12 @@ Or if you're using Yarn:
 $ yarn add simple-password-meter.js
 ```
 
+In order to use it, and after importing the library:
+
+```javascript
+new password.meter(document.getElementById('password'))
+```
+
 ## License
 
 © 2018 [Magd Kudama](https://github.com/magdkudama)  
